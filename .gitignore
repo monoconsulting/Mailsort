@@ -1,1 +1,8 @@
- 
+# Python virtual environment
+env/
+venv/
+__pycache__/
+*.pyc
+# Logs and IDE files
+*.log
+.vscode/
