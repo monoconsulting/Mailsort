@@ -1,0 +1,8 @@
+At line:1 char:2
++ ^& { $headers = @{ Authorization = 'token ghp_4SUPWCwiWYv2jR8ZPGSbBqH ...
++  ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quot
+ation marks ("&") to pass it as part of a string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : AmpersandNotAllowed
+ 

@@ -1,0 +1,13 @@
+prefix=E:/Dropbox/CODE/Mailsort/env/Library
+exec_prefix=E:/Dropbox/CODE/Mailsort/env/Library
+libdir=E:/Dropbox/CODE/Mailsort/env/Library/lib
+sharedlibdir=E:/Dropbox/CODE/Mailsort/env/Library/lib
+includedir=E:/Dropbox/CODE/Mailsort/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

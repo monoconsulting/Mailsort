@@ -1,0 +1,59 @@
+{
+  "mailboxes": [
+    {
+      "protocol": "imap",
+      "host": "mailcluster.loopia.se",
+      "port": 993,
+      "username": "pdf@medisign.se",
+      "password": "mC732AL?SUnSta!",
+      "action": "attachments",
+      "storage": {
+        "type": "local",
+        "base_folder": "E:\\Dropbox\\Lidbrandt Cederlund (2)\\Scannade kvitton",
+        "default_attachments_folder": "E:\\Dropbox\\Lidbrandt Cederlund (2)\\Scannade kvitton",
+        "default_convert_folder": ""
+      }
+    },
+    {
+      "protocol": "imap",
+      "host": "mailcluster.loopia.se",
+      "port": 993,
+      "username": "kvitto@medisign.se",
+      "password": "EU?6CDJvDefyMcV",
+      "action": "convert",
+      "storage": {
+        "type": "local",
+        "base_folder": "E:\\Dropbox\\Lidbrandt Cederlund (2)\\Scannade kvitton",
+        "default_attachments_folder": "",
+        "default_convert_folder": "E:\\Dropbox\\Lidbrandt Cederlund (2)\\Scannade kvitton"
+      }
+    }
+  ],
+  "storage": {
+    "type": "dropbox",
+    "base_folder": "/ProcessedEmails",
+    "dropbox": {
+      "access_token": "sl.u.AFv4TY3…(ditt-token)…OYg"
+    },
+    "onedrive": {
+      "client_id": "",
+      "client_secret": "",
+      "tenant_id": ""
+    },
+    "default_attachments_folder": "E:\\Dropbox\\Lidbrandt Cederlund (2)\\Scannade kvitton",
+    "default_convert_folder": "E:\\Dropbox\\Lidbrandt Cederlund (2)\\Scannade kvitton"
+  },
+  "rules": [
+    {
+      "type": "domain",
+      "value": "example.com",
+      "target_folder": "example_docs"
+    },
+    {
+      "type": "prefix",
+      "value": "INV",
+      "target_folder": "invoices"
+    }
+  ],
+  "wkhtmltopdf_path": "C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe"
+}
